@@ -65,6 +65,7 @@ Diagnósticos possíveis:
 📁 Estrutura do projeto
 
 validador_cnpj/
+
 ├── validador_cnpj/
 │   └── core.py
 │   └── __init__.py
