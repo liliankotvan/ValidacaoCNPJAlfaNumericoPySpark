@@ -24,21 +24,24 @@ Validador de CNPJ alfanumérico baseado nas regras oficiais da Receita Federal, 
 
 ## 📦 Instalação
 
-# bash
+# Bash
 pip install git+https://github.com/seu-usuario/validador_cnpj.git
 # Ou instale o pacote .whl/.zip no seu cluster Databricks
 
 ## 📄 Como usar
 1. Importar o módulo
-  from validador_cnpj.core import executar_validacao
-2. Executar a validação
+
+   from validador_cnpj.core import executar_validacao
+   
+3. Executar a validação
+   
    resultado = executar_validacao(
     spark=spark,
     tabela_origem="nome_da_tabela",
     coluna_cnpj="nome_da_coluna_cnpj",
     tabela_log="tabela_de_log"  # opcional
-)
-print(resultado)
+  )
+  print(resultado)
 
 ## 🛡️ Regras de Validação
 
