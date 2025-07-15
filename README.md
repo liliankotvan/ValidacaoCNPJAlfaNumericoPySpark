@@ -1,4 +1,4 @@
-# validador_cnpj
+# ValidacaoCNPJAlfaNumericoPySpark
 
 Validador de CNPJ alfanumérico baseado nas regras oficiais da Receita Federal, compatível com PySpark e Databricks. Calcula os dígitos verificadores (DV1 e DV2) usando a lógica ASCII-48 e módulo 11, conforme o formato do novo CNPJ.
 
@@ -64,7 +64,7 @@ Diagnósticos possíveis:
 
 📁 Estrutura do projeto
 
-validador_cnpj/
+ValidacaoCNPJAlfaNumericoPySpark/
 
 ├── validador_cnpj/
 │   └── core.py
