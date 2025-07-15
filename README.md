@@ -28,7 +28,7 @@ Validador de CNPJ alfanumérico baseado nas regras oficiais da Receita Federal, 
 pip install git+https://github.com/seu-usuario/validador_cnpj.git
 # Ou instale o pacote .whl/.zip no seu cluster Databricks
 
-📄 Como usar
+## 📄 Como usar
 1. Importar o módulo
   from validador_cnpj.core import executar_validacao
 2. Executar a validação
@@ -40,13 +40,13 @@ pip install git+https://github.com/seu-usuario/validador_cnpj.git
 )
 print(resultado)
 
-🛡️ Regras de Validação
+## 🛡️ Regras de Validação
 
 O CNPJ deve conter exatamente 14 caracteres alfanuméricos
 
 Os dígitos verificadores (13º e 14º caracteres) são validados conforme cálculo:
 
-ASCII - 48
+  ASCII - 48
 
 Pesos distribuídos de acordo com o módulo 11
 
@@ -62,7 +62,7 @@ Diagnósticos possíveis:
 
 "Tamanho incorreto"
 
-📁 Estrutura do projeto
+## 📁 Estrutura do projeto
 
 ValidacaoCNPJAlfaNumericoPySpark/
 
@@ -72,8 +72,8 @@ ValidacaoCNPJAlfaNumericoPySpark/
 ├── setup.py
 ├── README.md
 
-🤝 Contribuição
+## 🤝 Contribuição
 Contribuições são bem-vindas! Para sugestões ou correções, abra um pull request ou issue no repositório.
 
-📄 Licença
+## 📄 Licença
 Este projeto é distribuído sob a licença MIT.
